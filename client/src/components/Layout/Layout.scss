@@ -1,0 +1,12 @@
+.Layout {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  
+  &__inner {
+    width: 800px;
+    height: 800px;
+    border: 1px solid #333;
+  }
+}

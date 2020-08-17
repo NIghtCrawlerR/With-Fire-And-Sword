@@ -1,0 +1,6 @@
+@import 'assets/styles/variables.scss';
+
+.Grid {
+  display: grid;
+  grid-template-columns: repeat($gridSize, 1fr);
+}

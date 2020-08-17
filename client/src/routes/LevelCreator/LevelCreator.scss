@@ -1,0 +1,22 @@
+.LevelCreator {
+  &__instruments {
+    display: flex;
+    margin-top: 16px;
+  }
+
+  &__instrument-item {
+    margin-right: 12px;
+    padding: 5px 15px;
+    border: 1px solid #333;
+    cursor: pointer;
+
+    &.active {
+      background-color: #ccc;
+    }
+  }
+
+  &__hint {
+    font-weight: bold;
+    color: orange;
+  }
+}

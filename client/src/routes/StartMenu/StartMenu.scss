@@ -1,0 +1,11 @@
+.StartMenu {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+
+  &__btn {
+    margin: 10px 0;
+  }
+}

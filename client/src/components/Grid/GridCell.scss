@@ -1,0 +1,22 @@
+@import 'assets/styles/variables.scss';
+
+.GridCell {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: calc(800px / #{$gridSize});
+  background-color: #f1f1f1;
+  outline: 1px solid #333;
+
+  &--empty {
+    background-color: #222;
+  }
+
+  &--filled {
+    background-color: #f1f1f1;
+  }
+
+  &--clickable {
+    cursor: pointer;
+  }
+}
